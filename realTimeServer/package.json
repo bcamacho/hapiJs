@@ -1,0 +1,23 @@
+{
+  "name": "real_time_server",
+  "version": "0.0.1",
+  "description": "Hapi.js with Socket.io creates a realtime server for client updates",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "hapi.js",
+    "socket.io",
+    "hapi",
+    "socket"
+  ],
+  "author": "Brandy Lee Camacho",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^15.2.0",
+    "inert": "^4.0.2",
+    "socket.io": "^1.6.0"
+  }
+}

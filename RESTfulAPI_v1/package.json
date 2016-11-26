@@ -1,0 +1,25 @@
+{
+  "name": "restfull_api",
+  "version": "0.0.1",
+  "description": "RESTful API built using Hapi.js and MangoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hpai.js",
+    "hapi",
+    "mongo",
+    "mongodb"
+  ],
+  "author": "Brandy Lee Camacho",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^4.2.0",
+    "hapi": "^15.2.0",
+    "joi": "^10.0.1",
+    "mongodb": "^2.2.11",
+    "mongojs": "^2.4.0",
+    "uuid": "^3.0.0"
+  }
+}
